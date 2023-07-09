@@ -1,0 +1,14 @@
+site:
+  title: "Kobweb React"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/kobwebreact.js"
+      api: "build/libs/kobwebreact.jar"
+    prod:
+      script: "build/distributions/kobwebreact.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
